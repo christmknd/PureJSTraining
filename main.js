@@ -1,4 +1,4 @@
-export function celsiusToFahrenheit (celsius) {
+function celsiusToFahrenheit (celsius) {
     let tmp1 , tmp2 , result ;
     if (typeof(celsius) !== 'number' ) {
         return 'celsius is undifined';
