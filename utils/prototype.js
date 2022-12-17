@@ -37,7 +37,6 @@ fToC.prototype.conversion = function (fahreinheit){
         result = tmp2 * 5;
     }
     return result;
-    this.celsius = result;
 }
 
 
