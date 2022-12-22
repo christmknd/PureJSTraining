@@ -4,13 +4,20 @@
 
 Petit projet pour travailler sur certaines notions de javasript
 
+## Notions simples
+
+```bash
+- [x] Prototype
+- [x] Class
+```
+
 ## Notions avancés
 
 ### Map/Set
 
 ```bash
-- [] Map
-- [] Set
+- [x] Map
+- [x] Set
 ```
 
 ### Asynchronous JS
@@ -18,11 +25,4 @@ Petit projet pour travailler sur certaines notions de javasript
 ```bash
 - [x] Callbacks
 - [x] Promises
-```
-
-### API
-
-```bash
-- [] XMLHTTP Request
-- [] Fetch
 ```
