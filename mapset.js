@@ -1,4 +1,4 @@
-function celsiusToFahrenheit (celsius) {
+function cToF (celsius) {
     let tmp1 , tmp2 , result ;
     if (typeof(celsius) !== 'number' ) {
         return 'celsius is undifined';
@@ -16,7 +16,7 @@ function celsiusToFahrenheit (celsius) {
     
 }
 
-function fahrenheitToCelsius (fahreinheit) {
+function fToC (fahreinheit) {
     let tmp1 , tmp2 , result ;
     if (typeof(fahreinheit) !== 'number' ) {
         return 'fahreinheit is undifined';
@@ -28,14 +28,21 @@ function fahrenheitToCelsius (fahreinheit) {
     return result;
 }
 
-console.log(celsiusToFahrenheit(0));
-console.log(celsiusToFahrenheit(40));
-console.log(celsiusToFahrenheit('zero'));
-console.log(celsiusToFahrenheit(true));
+let celsiusMap = new Map([
+    ['paris',20],
+    ['london',0],
+    ['berlin',40]
+]);
 
-console.log(fahrenheitToCelsius(0))
-console.log(fahrenheitToCelsius(40))
-console.log(fahrenheitToCelsius('zero'))
-console.log(fahrenheitToCelsius(true))
+let fahreinheitSet = new Set([20,0,40])
+
+for (let temperature of celsiusMap.values()){
+    console.log(cToF(temperature))
+}
+
+for (value of fahreinheitSet) {
+    console.log(fToC(value))
+}
+
 
 

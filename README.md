@@ -4,9 +4,25 @@
 
 Petit projet pour travailler sur certaines notions de javasript
 
-```bash
-- [X] Object / prototype
-- [X] Classe
-- [X] Promise ( async/ await)
+## Notions avancés
 
+### Map/Set
+
+```bash
+- [] Map
+- [] Set
+```
+
+### Asynchronous JS
+
+```bash
+- [x] Callbacks
+- [x] Promises
+```
+
+### API
+
+```bash
+- [] XMLHTTP Request
+- [] Fetch
 ```
