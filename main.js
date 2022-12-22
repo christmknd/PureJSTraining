@@ -16,7 +16,7 @@ function celsiusToFahrenheit (celsius) {
     
 }
 
-export function fahrenheitToCelsius (fahreinheit) {
+ function fahrenheitToCelsius (fahreinheit) {
     let tmp1 , tmp2 , result ;
     if (typeof(fahreinheit) !== 'number' ) {
         return 'fahreinheit is undifined';
